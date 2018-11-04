@@ -1,6 +1,6 @@
 default: docker_build
 
-DOCKER_IMAGE ?= lachlanevenson/k8s-helm
+DOCKER_IMAGE ?= mattiasgees/k8s-helm
 GIT_BRANCH ?= `git rev-parse --abbrev-ref HEAD`
 
 ifeq ($(GIT_BRANCH), master)
